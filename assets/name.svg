@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 240" width="1000" height="240" font-family="'Arial Black','Franklin Gothic Heavy',Impact,sans-serif">
+  <defs>
+    <linearGradient id="neon" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%"  stop-color="#19e3ff"/>
+      <stop offset="45%" stop-color="#8a3cff"/>
+      <stop offset="100%" stop-color="#ff2e88"/>
+    </linearGradient>
+    <linearGradient id="sweep" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%"   stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="50%"  stop-color="#ffffff" stop-opacity=".9"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+      <animate attributeName="x1" values="-1;1"  dur="4s" repeatCount="indefinite"/>
+      <animate attributeName="x2" values="0;2"   dur="4s" repeatCount="indefinite"/>
+    </linearGradient>
+    <filter id="glow" x="-30%" y="-60%" width="160%" height="220%">
+      <feGaussianBlur stdDeviation="7" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <style>
+      .n{font-size:96px;font-weight:900;letter-spacing:4px;text-anchor:middle;dominant-baseline:middle;}
+      .cy{fill:#19e3ff; animation:gcy 2.4s steps(1) infinite;}
+      .pk{fill:#ff2e88; animation:gpk 2.4s steps(1) infinite;}
+      .wt{fill:url(#neon);}
+      .shine{fill:url(#sweep);}
+      .glowlayer{fill:url(#neon); filter:url(#glow); animation:pulse 2.6s ease-in-out infinite;}
+      .bar{animation:barpulse 2.6s ease-in-out infinite;}
+      @keyframes gcy{0%,100%{transform:translate(0,0)}12%{transform:translate(-5px,2px)}30%{transform:translate(4px,-2px)}52%{transform:translate(-3px,1px)}74%{transform:translate(5px,0)}88%{transform:translate(-2px,-1px)}}
+      @keyframes gpk{0%,100%{transform:translate(0,0)}12%{transform:translate(5px,-2px)}30%{transform:translate(-4px,2px)}52%{transform:translate(3px,-1px)}74%{transform:translate(-5px,0)}88%{transform:translate(2px,1px)}}
+      @keyframes pulse{0%,100%{opacity:.30}50%{opacity:.75}}
+      @keyframes barpulse{0%,100%{opacity:.4;transform:scaleX(.85)}50%{opacity:1;transform:scaleX(1)}}
+      @media (prefers-reduced-motion: reduce){.cy,.pk,.glowlayer,.bar{animation:none}}
+    </style>
+  </defs>
+
+  <rect x="0" y="0" width="1000" height="240" rx="18" fill="#0d0d12"/>
+  <rect x="2" y="2" width="996" height="236" rx="16" fill="none" stroke="#8a3cff" stroke-opacity=".35" stroke-width="2"/>
+
+  <!-- soft glow copy behind -->
+  <text class="n glowlayer" x="500" y="108">VYSHAKH NAIR</text>
+
+  <!-- chromatic glitch layers -->
+  <text class="n cy" x="500" y="108" opacity=".85">VYSHAKH NAIR</text>
+  <text class="n pk" x="500" y="108" opacity=".85">VYSHAKH NAIR</text>
+  <text class="n wt" x="500" y="108">VYSHAKH NAIR</text>
+  <!-- moving shine highlight -->
+  <text class="n shine" x="500" y="108">VYSHAKH NAIR</text>
+
+  <!-- subtitle -->
+  <text x="500" y="176" text-anchor="middle" font-size="22" font-weight="700" letter-spacing="6" fill="#c9d1d9" font-family="'Fira Code',monospace">OFFENSIVE SECURITY // AI SECURITY</text>
+
+  <!-- animated neon underline -->
+  <g transform="translate(500,200)">
+    <rect class="bar" x="-190" y="0" width="380" height="4" rx="2" fill="url(#neon)" style="transform-origin:center"/>
+  </g>
+  <circle cx="500" cy="202" r="3" fill="#c6ff5e">
+    <animate attributeName="cx" values="320;680;320" dur="3.2s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="1;.3;1" dur="3.2s" repeatCount="indefinite"/>
+  </circle>
+</svg>
