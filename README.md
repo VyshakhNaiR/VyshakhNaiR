@@ -1,26 +1,33 @@
+<!-- ════════════════ VYSHAKH NAIR · PROFILE README ════════════════ -->
+<!--  No build step. Every moving piece is a server-rendered / action-   -->
+<!--  generated SVG or GIF — GitHub strips JS/CSS, so motion lives here.  -->
+
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d0d12,50:8a3cff,100:19e3ff&height=210&section=header&text=VYSHAKH%20NAIR&fontColor=ffffff&fontSize=56&animation=fadeIn&fontAlignY=38&desc=Offensive%20Security%20Researcher%20%2F%2F%20AI%20Security%20Engineer&descAlignY=60&descSize=18" width="100%" alt="header"/>
+<!-- ░░ ANIMATED HEADER ░░ -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d0d12,35:8a3cff,70:ff2e88,100:19e3ff&height=230&section=header&text=VYSHAKH%20NAIR&fontColor=ffffff&fontSize=62&fontAlignY=36&animation=fadeIn&desc=Offensive%20Security%20Researcher%20%2F%2F%20AI%20Security%20Engineer&descAlignY=58&descSize=20" width="100%" alt="header"/>
 
-<a href="https://github.com/VyshakhNaiR">
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=19E3FF&center=true&vCenter=true&width=680&lines=Break+it+like+an+attacker.;Prove+it+like+a+regulator.;70%2B+assessments+%C2%B7+WAPT+%C2%B7+API+%C2%B7+MAPT+%C2%B7+LLM+red+team;Building+Elucida+%E2%80%94+security%2C+into+the+light." alt="typing"/>
+<!-- ░░ TYPING MARQUEE ░░ -->
+<a href="https://vyshakhnair.github.io">
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=23&pause=900&color=19E3FF&center=true&vCenter=true&width=720&height=52&lines=Break+it+like+an+attacker.;Prove+it+like+a+regulator.;70%2B+assessments+%C2%B7+WAPT+%C2%B7+API+%C2%B7+MAPT+%C2%B7+LLM+red-team;Building+Elucida+%E2%80%94+security%2C+into+the+light.;The+danger+isn't+the+bug+you+found...;...it's+the+surface+you+never+saw." alt="typing"/>
 </a>
 
 <br/>
 
-### 🕹️ &nbsp; [**LAUNCH THE INTERACTIVE PORTFOLIO →**](https://vyshakhnair.github.io)
+### 🕹️ &nbsp; [ **LAUNCH THE INTERACTIVE PORTFOLIO →** ](https://vyshakhnair.github.io)
 
-<a href="https://vyshakhnair.github.io">
-<img src="https://img.shields.io/badge/vyshakhnair.github.io-4_live_themes_%C2%B7_animated-ff2e88?style=for-the-badge&labelColor=0d0d12&logo=github" alt="live site"/>
-</a>
+<a href="https://vyshakhnair.github.io"><img src="https://img.shields.io/badge/vyshakhnair.github.io-4_live_themes_%C2%B7_animated-ff2e88?style=for-the-badge&labelColor=0d0d12&logo=github&logoColor=white" alt="live site"/></a>
 &nbsp;
-<img src="https://komarev.com/ghpvc/?username=VyshakhNaiR&label=VISITS&color=8a3cff&style=for-the-badge" alt="views"/>
+<img src="https://komarev.com/ghpvc/?username=VyshakhNaiR&label=PROFILE+VIEWS&color=8a3cff&style=for-the-badge" alt="views"/>
 &nbsp;
-<img src="https://img.shields.io/badge/%E2%97%8F%20AVAILABLE-for%20work-19e3ff?style=for-the-badge&labelColor=0d0d12" alt="status"/>
+<img src="https://img.shields.io/badge/%E2%97%8F%20AVAILABLE-for%20offensive%20%2F%20AI--sec%20work-19e3ff?style=for-the-badge&labelColor=0d0d12" alt="status"/>
 
 </div>
 
-## `~ ❯ whoami`
+<!-- ░░ NEON DIVIDER ░░ -->
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:ff2e88,50:8a3cff,100:19e3ff&height=3&section=header" width="100%" alt=""/>
+
+## <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="28"/> &nbsp;`~ ❯ whoami`
 
 ```yaml
 name:        Vyshakh Nair
@@ -29,20 +36,21 @@ focus:       [ WAPT, API, Mobile/MAPT, LLM/AI red-team, Cloud, Network ]
 experience:  4+ years · 70+ assessments (pentests · red teams · audits)
 building:    Elucida    — one engine: attacker's eyes, discoverer's map, regulator's proof
              ATLAS      — a fully-local voice AI companion (zero cloud)
-             ElucidaMob — Android MAPT automation (SAST + DAST)
-motto:       "The danger isn't the bug you found — it's the surface you never saw."
+             ElucidaMob — Android MAPT automation (SAST + DAST, one pipeline)
+philosophy:  "Simplicity wins — when stuck, the answer is often simpler than you think."
 ```
 
-## `~ ❯ ./arsenal --list`
+## ⚔️ &nbsp;`~ ❯ ./arsenal --list`
 
-| Project | What it is | Stack |
-|---|---|---|
-| **Elucida** | AI security engine — Offensive (pwn) · Discovery (SBOM/AI-BOM/Shadow-AI) · Assurance (proof) | Python · LLM |
-| **ATLAS** | Fully-local voice AI companion — real memory, eyes, hands, security arsenal. No cloud | Python · local models |
-| **ElucidaMob** | Android MAPT automation — SAST + DAST in one monitored pipeline | Frida · Python |
-| **security-testing-suite** | Self-learning pentest workflow engine with a growing skills registry | Python |
+<table>
+<tr><th>Project</th><th>What it is</th><th>Stack</th></tr>
+<tr><td><b>🧠 Elucida</b></td><td>AI security engine — Offensive (pwn) · Discovery (SBOM / AI-BOM / Shadow-AI) · Assurance (proof)</td><td><code>Python · LLM</code></td></tr>
+<tr><td><b>🎙️ ATLAS</b></td><td>Fully-local voice AI companion — real memory, eyes, hands, security arsenal. No cloud.</td><td><code>Python · local models</code></td></tr>
+<tr><td><b>📱 ElucidaMob</b></td><td>Android MAPT automation — SAST + DAST in one monitored pipeline</td><td><code>Frida · Python</code></td></tr>
+<tr><td><b>🔁 security-testing-suite</b></td><td>Self-learning pentest workflow engine with a growing skills registry</td><td><code>Python</code></td></tr>
+</table>
 
-## `~ ❯ ls skills/`
+## 🧰 &nbsp;`~ ❯ ls skills/`
 
 **Offensive**
 <p>
@@ -64,28 +72,57 @@ motto:       "The danger isn't the bug you found — it's the surface you never 
 
 **Languages & Platforms**
 <p>
-<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
-<img src="https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white"/>
-<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black"/>
-<img src="https://img.shields.io/badge/Kali_Linux-557C94?style=flat-square&logo=kalilinux&logoColor=white"/>
-<img src="https://img.shields.io/badge/Android-3DDC84?style=flat-square&logo=android&logoColor=white"/>
-<img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white"/>
+<img src="https://skillicons.dev/icons?i=python,bash,js,kali,linux,androidstudio,docker,git&theme=dark" alt="stack"/>
 </p>
 
-## `~ ❯ git log --stat`
+<!-- ░░ NEON DIVIDER ░░ -->
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:19e3ff,50:c6ff5e,100:ff2e88&height=3&section=header" width="100%" alt=""/>
+
+## 📊 &nbsp;`~ ❯ git log --stat`
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=VyshakhNaiR&show_icons=true&count_private=true&hide_border=true&bg_color=0d0d12&title_color=19e3ff&icon_color=ff2e88&text_color=c9d1d9" alt="stats"/>
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=VyshakhNaiR&layout=compact&hide_border=true&bg_color=0d0d12&title_color=19e3ff&text_color=c9d1d9" alt="langs"/>
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=VyshakhNaiR&show_icons=true&count_private=true&include_all_commits=true&hide_border=true&bg_color=0d0d12&title_color=19e3ff&icon_color=ff2e88&text_color=c9d1d9&ring_color=8a3cff" alt="stats"/>
+<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=VyshakhNaiR&layout=compact&hide_border=true&langs_count=8&bg_color=0d0d12&title_color=19e3ff&text_color=c9d1d9" alt="langs"/>
 
 <br/>
 
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=VyshakhNaiR&hide_border=true&background=0d0d12&stroke=8a3cff&ring=19e3ff&fire=ff2e88&currStreakLabel=19e3ff&sideLabels=c9d1d9&dates=8B949E&currStreakNum=c9d1d9&sideNums=c9d1d9" alt="streak"/>
 
+<br/>
+
+<!-- ░░ ANIMATED ACTIVITY GRAPH ░░ -->
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=VyshakhNaiR&bg_color=0d0d12&color=19e3ff&line=ff2e88&point=c6ff5e&area=true&area_color=8a3cff&hide_border=true&custom_title=Contribution%20Heatbeat" width="95%" alt="activity graph"/>
+
+<br/>
+
+<!-- ░░ TROPHIES ░░ -->
+<img src="https://github-profile-trophy.vercel.app/?username=VyshakhNaiR&theme=algolia&no-frame=true&no-bg=true&margin-w=6&column=7" alt="trophies"/>
+
 </div>
 
-## `~ ❯ ping vyshakh --contact`
+## 🐍 &nbsp;`~ ❯ ./feed-the-snake`
+
+<div align="center">
+
+<!-- ░░ CONTRIBUTION-EATING SNAKE (generated by .github/workflows/snake.yml) ░░ -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/VyshakhNaiR/VyshakhNaiR/output/github-contribution-grid-snake-dark.svg"/>
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/VyshakhNaiR/VyshakhNaiR/output/github-contribution-grid-snake.svg"/>
+  <img alt="contribution snake" src="https://raw.githubusercontent.com/VyshakhNaiR/VyshakhNaiR/output/github-contribution-grid-snake-dark.svg" width="100%"/>
+</picture>
+
+<br/>
+
+<!-- ░░ 3D CONTRIBUTION SKYLINE (generated by .github/workflows/3d-contrib.yml) ░░ -->
+<img src="https://raw.githubusercontent.com/VyshakhNaiR/VyshakhNaiR/main/profile-3d-contrib/profile-night-rainbow.svg" width="100%" alt="3d contributions"/>
+
+</div>
+
+<!-- ░░ NEON DIVIDER ░░ -->
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:ff2e88,50:8a3cff,100:19e3ff&height=3&section=header" width="100%" alt=""/>
+
+## 📡 &nbsp;`~ ❯ ping vyshakh --contact`
 
 <div align="center">
 
@@ -93,11 +130,15 @@ motto:       "The danger isn't the bug you found — it's the surface you never 
 <a href="https://www.linkedin.com/in/vyshakh-nair-763127131/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
 <a href="mailto:vyshakhg04@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/></a>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:19e3ff,50:8a3cff,100:0d0d12&height=120&section=footer" width="100%" alt="footer"/>
+<br/><br/>
+
+<img src="https://readme-typing-svg.demolab.com?font=Permanent+Marker&size=20&pause=1000&color=C6FF5E&center=true&vCenter=true&width=500&lines=thanks+for+scrolling+%E2%9C%A6;now+go+break+something+(ethically)" alt="outro"/>
 
 </div>
 
+<!-- ░░ ANIMATED FOOTER ░░ -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:19e3ff,50:8a3cff,100:0d0d12&height=130&section=footer" width="100%" alt="footer"/>
+
 <!--
-  Add your real certifications here if you want a certs row (CEH, OSCP, etc.) —
-  I left them out rather than invent any.
+  certifications: deliberately omitted. Add real ones here (OSCP, CEH…) — never invented.
 -->
