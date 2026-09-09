@@ -83,12 +83,7 @@ philosophy:  "Simplicity wins — when stuck, the answer is often simpler than y
 
 <div align="center">
 
-<img height="170" src="https://github-readme-stats-eight-liard.vercel.app/api?username=VyshakhNaiR&show_icons=true&count_private=true&include_all_commits=true&hide_border=true&bg_color=0d0d12&title_color=19e3ff&icon_color=ff2e88&text_color=c9d1d9&ring_color=8a3cff" alt="stats"/>
-<img height="170" src="https://github-readme-stats-eight-liard.vercel.app/api/top-langs/?username=VyshakhNaiR&layout=compact&hide_border=true&langs_count=8&bg_color=0d0d12&title_color=19e3ff&text_color=c9d1d9" alt="langs"/>
-
-<br/>
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=VyshakhNaiR&hide_border=true&background=0d0d12&stroke=8a3cff&ring=19e3ff&fire=ff2e88&currStreakLabel=19e3ff&sideLabels=c9d1d9&dates=8B949E&currStreakNum=c9d1d9&sideNums=c9d1d9" alt="streak"/>
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=VyshakhNaiR&hide_border=true&background=0d0d12&stroke=8a3cff&ring=19e3ff&fire=ff2e88&currStreakLabel=19e3ff&sideLabels=c9d1d9&dates=8B949E&currStreakNum=c9d1d9&sideNums=c9d1d9" alt="streak" width="85%"/>
 
 </div>
 
